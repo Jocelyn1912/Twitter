@@ -7,29 +7,36 @@
 	<link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-	<!-- Acá empieza la primera sección del header -->
+	<!-- Primera sección -->
 	<header>
 		<div class="container">
 			<h1>Twitter</h1>
 		</div>
 	</header>
-	<!-- Fin de la primera sección header -->
+	<!-- Fin de la primera sección -->
 
-	<!-- Acá empieza segunda sección -->
-	<article>
+	<!-- Segunda sección -->
+	<article> 
+		<!-- Sección de información -->
 		<section>
 			<h2>Reto de Código</h2>
 			<p>Hola, <br> Soy front-end developer jr.</p>
 			<p>CÓDIGO</p>			
 		</section>
-	<!-- Fin segunda sección -->
+		<!-- Fin de la sección de información -->
 
+		<!-- Sección del formulario -->
 		<section>
 			<textarea class="txt" id="tweet" placeholder="¿Qué estás pensando?"></textarea>
-			<button type="button" id="btn" onclick="add()">Twittear</button>
-			<span class="tweetCounter">140</span>
+			<button type="button" id="boton" onclick="add()">Twittear</button>
+			<span id="tweetCounter">140</span>
 		</section>
+		<!-- Fin de la sección del formulario -->
+
+		<!-- contenedor comentarios -->
+		<div id="container"></div>
 	</article>
+	<!-- Fin de la segunda sección -->
 
 	<script src="assets/js/app.js"></script>
 </body>
