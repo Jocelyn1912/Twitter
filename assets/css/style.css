@@ -29,7 +29,7 @@ article {
 section {
 	display: inline-block;
 	width: 37%;
-	height: 40%;
+	height: 30%;
 	background-color: #fff;
 	vertical-align: top;
 	margin: 4em;
@@ -39,7 +39,7 @@ section {
 /* Estilos formulario, textarea */
 textarea {
 	width: 95%;
-	height: 9em;
+	height: 2em;
 	color: #4E4D53;
 	font-size: 15px;
 	padding: 1em;
