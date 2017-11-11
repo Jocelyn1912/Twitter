@@ -83,4 +83,17 @@ textarea:focus{
 	margin-bottom: 2em;
 	outline: 0.1em solid #E5E3F2;
 	background-color: #FFF;
+	/*
+	La propiedad word-wrap permite que el texto
+	ingresado se ajuste a su contenedor
+	*/
+	word-wrap: break-word; 
+}
+
+.red {
+	color: red;
+}
+
+.yellow {
+	color: yellow;
 }
