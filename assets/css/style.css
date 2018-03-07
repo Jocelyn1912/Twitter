@@ -5,80 +5,45 @@ padding: 0;
 font-family: 'Work Sans', sans-serif;
 }
 
-/*Primera sección*/
-.container {
-	position: fixed;
-	width: 100%;
-	z-index: 100;
+body {
+  background-image: url(../img/fondoBicicleta.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
-h1 {
-	text-align: center;
-	background-color: #0084B4; 
-	color: #fff;
+.color {
+  background-color: #0084B4;
+  color: #fff;
+  padding: 1vh 0;
 }
 
-article {
-	background-image: url(../img/fondoBicicleta.jpg);
-	height: 100vh;
-	background-size: cover;
-	background-position: center;
-
+i {
+  font-size: 8vh;
 }
 
 section {
-	display: inline-block;
-	width: 37%;
-	height: 30%;
 	background-color: #fff;
-	vertical-align: top;
 	margin: 4em;
 	padding: 1em;
 }
 
 /* Estilos formulario, textarea */
 textarea {
-	width: 95%;
-	height: 2em;
+	width: 100%;
 	color: #4E4D53;
 	font-size: 15px;
-	padding: 1em;
 	border: none;
 	margin: 0 auto;
 	border-bottom: 2px solid #0084B4;
 }
 
-textarea:focus{
-	outline: none;
-}
-
 /* Estilos botón Twittear */
-#boton {
-	background-color: #0084B4;
-	border: 0;
-	cursor: pointer;
-	margin: 1em auto;
-	width: 10em;
-	height: 3em;
-	color: #FFF;
-	border-radius: 0.5em;
-}
-
 #boton:focus, textarea:focus{
 	outline: none;
 }
 
 /* Estilos contenedor de comentarios */
-#container {
-	border-radius: 0.4em;
-	width: 90%;
-	margin: 0 auto;
-	color: #4E4D53;
-	text-align: left;
-	margin-bottom: 6em;
-}
-
-#container div {
+#containerTwits div {
 	padding: 1em 0.5em;
 	margin-bottom: 2em;
 	outline: 0.1em solid #E5E3F2;
@@ -87,13 +52,6 @@ textarea:focus{
 	La propiedad word-wrap permite que el texto
 	ingresado se ajuste a su contenedor
 	*/
-	word-wrap: break-word; 
+	word-wrap: break-word;
 }
 
-.red {
-	color: red;
-}
-
-.yellow {
-	color: yellow;
-}
